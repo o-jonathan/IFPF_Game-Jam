@@ -1,0 +1,83 @@
+name: 🎮 Submissão de Projeto
+description: Envie o projeto da sua equipe para a IFPF Game Jam.
+title: "[SUBMISSÃO] "
+labels:
+  - submissão
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎮 IFPF Game Jam
+        Preencha este formulário para enviar o projeto da sua equipe.
+
+        **Antes de enviar, certifique-se de que você leu o regulamento completo disponível no README deste repositório.**
+
+  - type: input
+    id: jogo
+    attributes:
+      label: Nome do jogo
+      description: Informe o nome do jogo desenvolvido pela equipe.
+      placeholder: "Ex.: Pixel Quest"
+    validations:
+      required: true
+
+  - type: input
+    id: equipe
+    attributes:
+      label: Nome da equipe
+      description: Informe o nome da equipe.
+      placeholder: "Ex.: Os Gamers"
+    validations:
+      required: true
+
+  - type: input
+    id: repositorio
+    attributes:
+      label: Repositório do projeto
+      description: Link para o repositório público contendo o código-fonte.
+      placeholder: "https://github.com/equipe/projeto"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ia
+    attributes:
+      label: Uso de Inteligência Artificial
+      description: A equipe utilizou IA durante o desenvolvimento?
+      options:
+        - "Não utilizamos IA"
+        - "Sim, utilizamos IA na programação"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: assets
+    attributes:
+      label: Assets externos
+      description: A equipe utilizou assets externos?
+      options:
+        - "Não utilizamos assets externos"
+        - "Sim, utilizamos assets externos permitidos"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: declaracoes
+    attributes:
+      label: Declarações
+      description: Confirme que sua equipe está de acordo com o regulamento.
+      options:
+        - label: "Li e aceito o regulamento da IFPF Game Jam."
+          required: true
+        - label: "Minha equipe possui no máximo 5 integrantes."
+          required: true
+        - label: "O projeto possui uma versão jogável pronta para avaliação."
+          required: true
+        - label: "Não utilizamos IA generativa para criar arte, modelos 3D, texturas, música, efeitos sonoros ou dublagens."
+          required: true
+        - label: "Não utilizamos propriedade intelectual ou assets protegidos sem autorização."
+          required: true
+        - label: "Todos os assets externos permitidos estão devidamente creditados."
+          required: true
+        - label: "Declaramos corretamente o uso de IA na programação, quando aplicável."
+          required: true
