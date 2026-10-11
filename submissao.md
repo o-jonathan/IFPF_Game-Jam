@@ -2,7 +2,7 @@
 
 Seu jogo está pronto e o período de submissão está aberto? Então chegou a hora de enviar seu projeto!
 
-> [!important] Atenção!
+> [!important]
 > O período de submissão começa no dia **22/10**. Organize os arquivos necessários e confira se seu projeto atende a todas as regras antes de enviá-lo.
 
 ## O que preciso para submeter meu projeto?
@@ -25,5 +25,5 @@ O processo é simples! Basta seguir estes passos:
 
 Pronto! Seu projeto terá sido enviado para avaliação.
 
-> [!warning] Importante
+> [!warning]
 > confira se todas as informações estão corretas e se os arquivos necessários estão disponíveis antes de enviar a submissão.
