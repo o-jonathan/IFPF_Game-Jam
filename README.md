@@ -2,6 +2,9 @@
   <h1>IFPF Game Jam</h1>
 </div>
 
+## Tema
+Será revelado dia 12/10.
+
 ## Equipes
 Poderão ser formadas equipes de até 5 membros.
 Com inscrição realizada via [Painel](https://painel.passofundo.ifsul.edu.br/).
@@ -39,7 +42,11 @@ Para que o jogo seja avaliado pela banca sem necessidade de instalação de soft
 2. **Documentação e Código-Fonte:**
    * Link do repositório público com o código-fonte e histórico de commits;
    * Arquivo `CREDITOS.txt` (ou `.md`) listando todos os assets externos permitidos e suas licenças;
+      - > Utilize um [template](https://github.com/o-jonathan/IFPF_Game-Jam/blob/main/templates/CREDITOS.md).
    * Arquivo `TERMO_IA.txt` (ou `.md`) descrevendo o uso de assistentes de IA no código (se aplicável).
+      - > Utilize um [template](https://github.com/o-jonathan/IFPF_Game-Jam/blob/main/templates/TERMO_IA.md).
+
+Para mais informações sobre a submissão clique [aqui](https://github.com/o-jonathan/IFPF_Game-Jam/blob/main/submissao.md).
 
 ## Critérios de Avaliação
 1. Criatividade e Inovação
