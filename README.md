@@ -3,7 +3,12 @@
 </div>
 
 ## Tema
-Será revelado dia 12/10.
+<div align="center">
+   <img src="https://github.com/o-jonathan/IFPF_Game-Jam/blob/main/assets/theme_title.png" height=192>
+
+   <small>Imagem gerada com Minecraft Title Generator por Ewan Howell no Blockbench.</small>
+</div>
+
 
 ## Equipes
 Poderão ser formadas equipes de até 5 membros.
